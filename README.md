@@ -24,5 +24,3 @@ I do **not** claim ownership of the original design — this is an **educational
 ## 💡 Note
 This is my **first GitHub project** and deployment using **GitHub Pages**.  
 More projects coming soon as I keep exploring and learning web development! 😊
-
-

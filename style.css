@@ -31,7 +31,6 @@ h2 {
 }
 
 .button1 {
-    /* REMOVE margin-left: 1000px; */
     width: 100px;
     height: 30px;
     padding: 1px 20px;
@@ -105,32 +104,22 @@ button:focus-visible {
     outline-offset: 2px;
 }
 
-
 .main-head {
     position: relative;
-    /* Ensures child elements are positioned relative to this. This makes .blue-headphones position itself inside this div */
     background-image: url('bg_headphones.jpg');
     background-size: cover;
-    /* Ensures the image covers the entire div */
     background-position: center;
-    /* Centers the background image */
     background-repeat: no-repeat;
-    /* Prevents tiling */
     color: rgb(0, 0, 0);
-    /* Ensures text is visible on a dark background */
     padding: 50px;
-    /* Adds spacing inside the div */
 }
-
 
 .blue-headphones {
     width: 670px;
     height: auto;
     position: absolute;
     top: 10px;
-    /* Adjust if needed */
     right: 0px;
-    /* Adjust if needed */
     max-width: 100%;
 }
 
@@ -141,13 +130,9 @@ button:focus-visible {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    /* Adjust as needed */
     opacity: 0.08;
-    /* Soft & faded effect */
     filter: grayscale(100%) contrast(80%) blur(2px);
-    /* Makes it subtle */
     z-index: -1;
-    /* Keeps it in the background */
 }
 
 .hero-text {
@@ -160,7 +145,6 @@ button:focus-visible {
 /* Footer */
 .footer {
     background-color: #f2f2f2;
-    /* Light gray background */
     padding: 40px 0;
 }
 
@@ -179,13 +163,11 @@ button:focus-visible {
     flex-direction: column;
     align-items: flex-start;
     width: 200px;
-    /* Keeps each section aligned properly */
 }
 
 .item h2 {
     font-size: 18px;
     margin-bottom: 10px;
-    /* Adds space between heading and links */
 }
 
 .item a {
@@ -193,7 +175,6 @@ button:focus-visible {
     color: black;
     font-size: 15px;
     margin-top: 5px;
-    /* Adds space between links */
     cursor: pointer;
 }
 
@@ -202,7 +183,6 @@ button:focus-visible {
     text-decoration: underline;
     transition: 0.3s;
 }
-
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -216,7 +196,6 @@ button:focus-visible {
         width: 100%;
     }
 
-    /* Navbar */
     h2 {
         padding-left: 20px;
         padding-top: 10px;
@@ -237,7 +216,6 @@ button:focus-visible {
         max-width: 200px;
     }
 
-    /* Hero Heading & Text */
     h1 {
         font-size: 40px;
         padding-left: 20px;
@@ -256,21 +234,18 @@ button:focus-visible {
         max-width: 200px;
     }
 
-    /* Headphones Image */
     .blue-headphones {
         width: 100%;
         position: static;
         margin-top: 20px;
     }
 
-    /* Main background div */
     .main-head {
         padding: 20px;
         background-size: contain;
         background-position: top;
     }
 
-    /* Hero Text Centering */
     .hero-text {
         text-align: left;
     }
